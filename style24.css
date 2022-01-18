@@ -1,0 +1,106 @@
+/*@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');*/
+
+/* Box-sizing: inherit; inherits the property from the parent element, Box-sizing:border-box; the width and height includes content,padding and border
+the *{} selects the whole html page
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: inherit; 
+  
+}
+
+html{
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+}
+
+header{
+    border-bottom: 2px solid whitesmoke;
+    padding-left: 50%;
+    position: relative;
+  height: 100px;
+  color: antiquewhite;
+
+}
+h2{
+    position: absolute;
+    top: 30px;
+    text-align: center;
+}
+
+.guess{
+    position: absolute;
+    left:2px;
+    top:2px;
+}
+.btn{
+   
+    border-radius: 8px;
+    width: 7rem;
+    height: 4rem;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: grey;
+}
+
+.between{
+    position: absolute;
+    top: 3px;
+    right: 10px;
+}
+
+.mark{
+    position: absolute;
+    font-size: 40px;
+    bottom: -20px;
+    color: black;
+    text-align: center;
+    background: white;
+    padding: 3px 0px;
+    width: 60px;
+    left: 53%;
+    
+}
+
+.between{
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.area-two{
+    width: 10rem;
+    position: relative;
+    top: 30px;
+
+}
+
+.numbb{
+    border-radius: 10px;
+    width: 15rem;
+    height: 5rem;
+    background-color: #222;
+    color: white;
+    font-size: 20px;
+    border: 2px solid;
+}
+
+.check{
+    position: inherit;
+    top: 10px;
+}
+
+.area-three{
+position: absolute;
+right: 10px;
+color: blanchedalmond;
+}
+
+p{
+    font-size: 20px;
+}
